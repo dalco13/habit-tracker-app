@@ -1,12 +1,31 @@
+import { useFonts } from 'expo-font';
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { SafeAreaView, View, Text, StyleSheet } from 'react-native';
+import DateDisplay from './src/components/DateDisplay';
+import HabitButtonsContainer from './src/components/HabitButtonsContainer';
+import ProgressVisual from './src/components/ProgressVisual';
 
 export default function App() {
+  let [fontsLoaded] = useFonts({
+    Roboto_Condensed,
+  });
+
+  if (!fontsLoaded) {
+    return <Text>Loading fonts...</Text>;
+  }
   return (
-    <View style={styles.container}>
-      <Text>bruh 2!</Text>
+    <SafeAreaView style={styles.container}>
+      <View style={{flex:1}}>
+        <DateDisplay />
+      </View>
+      <View style={{flex:3}}>
+        <ProgressVisual />
+      </View>
+      <View style={{flex:3}}>
+        <HabitButtonsContainer />
+      </View>
       <StatusBar style="auto" />
-    </View>
+    </SafeAreaView>
   );
 }
 
@@ -14,7 +33,5 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
   },
 });

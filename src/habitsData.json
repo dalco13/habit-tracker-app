@@ -1,0 +1,32 @@
+[
+  {
+    "name": "make-bed",
+    "title": "Make Bed",
+    "icon": "bed"
+  },
+  {
+    "name": "meditate",
+    "title": "Meditate",
+    "icon": "yoga"
+  },
+  {
+    "name": "brush-teeth",
+    "title": "Brush Teeth",
+    "icon": "toothbrush"
+  },
+  {
+    "name": "wash-face",
+    "title": "Wash Face",
+    "icon": "face-cream"
+  },
+  {
+    "name": "pack-lunch",
+    "title": "Pack Lunch",
+    "icon": "fruits"
+  },
+  {
+    "name": "exercise",
+    "title": "Exercise",
+    "icon": "exercise"
+  }
+]

@@ -10,7 +10,13 @@
     "eject": "expo eject"
   },
   "dependencies": {
+    "@expo-google-fonts/arvo": "^0.2.0",
+    "@expo-google-fonts/merriweather": "^0.2.0",
+    "@expo-google-fonts/roboto-condensed": "^0.2.0",
+    "@expo-google-fonts/staatliches": "^0.2.0",
+    "@expo-google-fonts/work-sans": "^0.2.0",
     "expo": "~44.0.0",
+    "expo-font": "~10.0.4",
     "expo-status-bar": "~1.2.0",
     "react": "17.0.1",
     "react-dom": "17.0.1",

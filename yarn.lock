@@ -1052,6 +1052,31 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
+"@expo-google-fonts/arvo@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@expo-google-fonts/arvo/-/arvo-0.2.0.tgz#4a736f60956c5c37fed29f956eacac97715d043b"
+  integrity sha512-sAOyojhY4JpLE1/A30SBno13y0bdT413DbPEzO/cpC00DgwYRA8NsLSYZeEBnLV6ZS0nsxpD366LeAEo1sfmoA==
+
+"@expo-google-fonts/merriweather@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@expo-google-fonts/merriweather/-/merriweather-0.2.0.tgz#61a201036bcb90799f58fe741c49244412931e93"
+  integrity sha512-75Ma4Om5YICJz08sT6QqcME9U59EwlJZHEXJEdWrQ8K3sC10zOyarTKiq9Se5Q8S27XfKYGSmw7XTWSD4FeUmA==
+
+"@expo-google-fonts/roboto-condensed@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@expo-google-fonts/roboto-condensed/-/roboto-condensed-0.2.0.tgz#e565af7c6cb608d6ad77def42bca4f9f09052248"
+  integrity sha512-LeltvDXCWBKwwtpt4SH/8qqXHKrIoxFF4E8m4i+tC8LyulPqc7P16VPL+uhnxkXLCFZ6MPSprDwz7ECF+sfKkg==
+
+"@expo-google-fonts/staatliches@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@expo-google-fonts/staatliches/-/staatliches-0.2.0.tgz#373d485fea55a4b31555695eb69a7ffa6426d0e6"
+  integrity sha512-FJYzZ3YzsuOoBq8iDbg1OGMjp+mjnyyOstLiO7DzhrEur1DSFv9u+jlcVPucNghRPhnbtYSR79iyvjy0pT0F4g==
+
+"@expo-google-fonts/work-sans@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@expo-google-fonts/work-sans/-/work-sans-0.2.0.tgz#07f4ebfa85468cb9f6dbd3e23131dfbfc77ef652"
+  integrity sha512-labuottehLLiUs/tIQqYYB8fBLu3byo6cpb1i2MFGAu0NEL6ArSTxTF6+XNdbJpH2tvMNzfbyNbnE1n+cO0m3A==
+
 "@expo/config-plugins@4.0.16", "@expo/config-plugins@^4.0.2":
   version "4.0.16"
   resolved "https://registry.yarnpkg.com/@expo/config-plugins/-/config-plugins-4.0.16.tgz#832fb533245180c6dfd82fd359474f68a8e857b2"
