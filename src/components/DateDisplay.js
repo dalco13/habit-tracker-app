@@ -17,10 +17,12 @@ const styles = StyleSheet.create({
     padding: 18
   },
   dayOfWeekText: {
+    fontFamily: 'Staatliches_400Regular',
     fontSize: 36,
     fontWeight: 'bold'
   },
   dateText: {
+    fontFamily: 'Merriweather_400Regular',
     fontSize: 18,
     marginLeft: 1
   }

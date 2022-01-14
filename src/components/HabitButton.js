@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
     alignItems: 'center'
   },
   titleText: {
-    fontFamily: 'roboto-condensed',
+    fontFamily: 'WorkSans_400Regular',
     fontSize: 18,
     margin: 8
   }
